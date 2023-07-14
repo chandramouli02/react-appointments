@@ -1,0 +1,67 @@
+.appointmentItem {
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 30%;
+}
+.appointment {
+  display: flex;
+  justify-content: space-between;
+}
+.appointment-heading {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 500;
+}
+.like-btn {
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+}
+
+.like-btn:hover {
+  cursor: pointer;
+}
+
+.date {
+  color: gray;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 576px) {
+  .appointmentItem {
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 100%;
+  }
+  .appointment {
+    display: flex;
+    justify-content: space-between;
+  }
+  .appointment-heading {
+    color: #171f46;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .like-btn {
+    background-color: transparent;
+    border: 0px solid;
+    outline: none;
+  }
+
+  .like-btn:hover {
+    cursor: pointer;
+  }
+
+  .date {
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
